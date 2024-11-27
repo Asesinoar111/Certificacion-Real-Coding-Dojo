@@ -7,7 +7,65 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="nav">
+        <div class="nav-title">
+            <h1 class="nav-h1">Libroteca</h1>
+            <img src="img/logo.png" alt="logo" class="nav-img">
+        </div>
+        <div class="nav-btns">
+            <button class="nav-btn nav-btn-1" id="nav-btn-1">Inicio de Sesión</button>
+            <button class="nav-btn nav-btn-2">Registro</button>
+        </div>
+    </nav>
+    <header class="header">
+        <ul class="header-ul header-ul-1">
+            <li class="header-li"><img src="img/libro.png" alt="logo-libro" class="header-img"> Elige tu libro</li>
+            <li class="header-li"><img src="img/check.png" alt="logo-check" class="header-img"> Revisa disponibilidad</li>
+            <li class="header-li"><img src="img/separalo.png" alt="logo-separalo" class="header-img"> Sepáralo</li>
+            <li class="header-li"><img src="img/shipping.png" alt="logo-shipping" class="header-img"> Recíbelo</li>
+        </ul>
+        <ul class="header-ul header-ul-2">
+            <li class="header-li header-li2" id="header-li-1">Ficción</li>
+            <li class="header-li header-li2" id="header-li-2">Históricos</li>
+            <li class="header-li header-li2" id="header-li-3">Tecnología</li>
+            <li class="header-li header-li2" id="header-li-4">Autoayuda</li>
+            <li class="header-li header-li2" id="header-li-5">Poesía</li>
+        </ul>
+        <h2 class="header-title" id="header-title">
+            Todos Los Libros
+        </h2>
+    </header>
+    <main class="main">
+        <div class="card">
+            <figure class="card-figure"><img src="img/cien.jpg" alt="Portada-Cien-Años-de-Soledad" class="card-img"></figure>
+            <figcaption class="card-figcaption">
+                <h3 class="card-title">Cien Años de Soledad</h3>
+                <h4 class="card-autor">Gabriel García Márquez</h4>
+                <button class="card-btn">Rentar</button>
+            </figcaption>
+        </div>
+        <div class="card">
+            <figure class="card-figure"><img src="img/rayuela.jpg" alt="Portada-Rayuela" class="card-img"></figure>
+            <figcaption class="card-figcaption">
+                <h3 class="card-title">Rayuela</h3>
+                <h4 class="card-autor">Julio Cortázar</h4>
+                <button class="card-btn">Rentar</button>
+            </figcaption>
+        </div>
+        <div class="card">
+            <figure class="card-figure"><img src="img/travesuras.jpg" alt="Portada-Travesuras-de-la-Niña-Mala" class="card-img"></figure>
+            <figcaption class="card-figcaption">
+                <h3 class="card-title">Travesuras de la Niña Mala</h3>
+                <h4 class="card-autor">Mario Vargas Llosa</h4>
+                <button class="card-btn">Rentar</button>
+            </figcaption>
+        </div>
+    </main>
+    <footer class="footer">
+        <h5 class="footer-title">
+            Todos los derechos reservados. Libroteca
+        </h5>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
